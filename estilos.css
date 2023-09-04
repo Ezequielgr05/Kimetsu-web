@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(Imagenes/kny_fondo.jpg);
+    background-size: cover;
+}
+
+section{
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #58be88;
+    overflow: hidden; 
+    border-bottom: 3px solid #408962;
+}
+#Titulo{
+    color: #fff;
+    font-size: 35px;
+    text-shadow: 1px 1px 0 #408962, -1px -1px 0 #408962, 1px -1px 0 #408962, -1px 1px 0 #408962;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    float: left;
+}
+
+#Cuerpo{
+    position: absolute;
+    height: 90vh;
+    width: 100%;
+}
+
+#Cuerpo_1{
+    background-color: #d32d2d;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-bottom: 2px solid #4e0000;
+    border-right: 2px solid #4e0000;
+    border-left: 2px solid #4e0000;
+}
+
+#Cuerpo_2{
+    background-color: #911414;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-right: 3px solid #4e0000;
+    border-left: 3px solid #4e0000;
+}
+
+.Titulo_oscuro{
+    color: white;
+    font-size:30px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #4e0000;
+}
+.Parrafo_oscuro{
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+.Imagenes{
+    display: block;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 25%;
+    width: 25%;
+}
+
+.logo{
+    height: 5%;
+    width: 5%;
+    float: left;
+}
+
